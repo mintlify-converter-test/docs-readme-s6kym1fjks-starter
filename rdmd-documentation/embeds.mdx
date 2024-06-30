@@ -1,0 +1,41 @@
+---
+title: "Syntax and Examples"
+description: "Instructions and examples for embedding content in Markdown"
+---
+## Syntax
+
+Embedded content is written as a simple Markdown link, with a title of "@embed", like so:
+
+```
+[Embed Title](https://youtu.be/8bh238ekw3 "@embed")
+
+```
+
+## Examples
+
+[<img className="block" src="https://avatars2.githubusercontent.com/u/6878153?s=400&v=4" alt="RDMD CSS theming and style adjustments. by rafegoldberg · Pull Request #671 · readmeio/api-explorer" />\
+\
+<img className="block" src="images/github_com/_favicon.ico" alt="github.com" />github.com\
+\
+RDMD CSS theming and style adjustments. by rafegoldberg · Pull Request #671 · readmeio/api-explorer](https://github.com/readmeio/api-explorer/pull/671)
+
+[<img className="block" src="images/static01_nyt_com/_images_2020_05_02_world_02dc_virus_bush_2_merlin_171999921_e857a690_fb9b_462d_a20c_28c8161107c9_facebookJumbo.jpg" alt="George W. Bush Calls for End to Pandemic Partisanship" />\
+\
+<img className="block" src="images/www_nytimes_com/_vi_assets_static_assets_favicon_4bf96cb6a1093748bf5b3c429accb9b4.ico" alt="nytimes.com" />nytimes.com\
+\
+George W. Bush Calls for End to Pandemic Partisanship](https://www.nytimes.com/2020/05/03/us/politics/george-w-bush-coronavirus-unity.html)
+
+**Magic Block** (Embedly)  
+
+**Magic Block** (iFrame)  
+
+**Markdown Block**  
+
+[`https://youtu.be/8bh238ekw3`\
+\
+Embed Title](https://youtu.be/8bh238ekw3)
+
+## Known Issues
+
+At the moment, embed links written in the new ReadMe-flavored markdown syntax will simply display the link. (Magic block embeds will continue to work, though!) We're aware of the shortcoming, and plan to refactor this component as we move forward.
+
